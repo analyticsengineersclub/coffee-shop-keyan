@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: monthly_customers
+    columns:
+      - name: signup_month
+        description: Signup month of customers
+        tests:
+          - unique
+          - not_null
+          
